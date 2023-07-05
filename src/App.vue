@@ -2,6 +2,8 @@
   <div id="app">
     <h1>hello chanhocnhiu</h1>
     <h2>well done chanhonchiu haha!</h2>
+    <h2>go chanhonchiu</h2>
+
   </div>
 </template>
 
