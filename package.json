@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "set NODE_OPTIONS=--openssl-legacy-provider && npm run start",
+    "start": "node dev-server.js 8080",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
